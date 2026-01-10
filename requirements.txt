@@ -1,0 +1,7 @@
+streamlit
+Pillow
+
+torch
+transformers
+pandas
+groq
