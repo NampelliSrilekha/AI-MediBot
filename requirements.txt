@@ -4,10 +4,10 @@ open-clip-torch
 torch
 torchvision
 transformers
-numpy
 pandas
 groq
 python-dotenv
 requests
 openai
-opencv-python
+numpy==1.26.4
+opencv-python==4.8.1.78
