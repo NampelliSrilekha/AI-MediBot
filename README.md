@@ -1,8 +1,17 @@
-**AI-MediBot – AI-Powered Skin Health Assistant**
 
-AI-MediBot is a multi-modal AI assistant designed to provide personalized, non-diagnostic guidance for users managing skin-related concerns. The system integrates vision-language modeling for skin image understanding with a large language model for intelligent response generation, delivering safe, context-aware insights while emphasizing responsible AI usage.
 
-**Key Features**
+
+# AI-MediBot
+
+
+🩺 [AI-MediBot]( https://ai-medibot-skin.streamlit.app/)
+
+
+### **AI-MediBot – AI-Powered Skin Health Assistant**
+
+AI-MediBot is a multi-modal AI assistant designed to provide personalized, non-diagnostic guidance for users managing skin-related concerns. The system integrates vision-language modeling  for skin image understanding with a large language model for intelligent response generation, delivering safe, context-aware insights while emphasizing responsible AI usage.
+
+## **Key Features**
 
 - Secure User Authentication – Protects user access and consultation data
 - Guided Patient Onboarding – Collects background details for personalization
@@ -12,7 +21,7 @@ AI-MediBot is a multi-modal AI assistant designed to provide personalized, non-d
 - Consultation Management – Session-based chat history and state management
 - Non-Diagnostic & Safety-Driven – Promotes responsible AI and medical consultation
 
-**System Overview**
+## **System Overview**
 
 AI-MediBot follows a modular, layered architecture:
 Presentation Layer: Streamlit-based web interface
@@ -29,7 +38,7 @@ The system takes image predictions, user symptoms, onboarding context, and conve
 
 
 
-**Model Architecture**
+## **Model Architecture**
 
 BiomedCLIP (Vision-Language Model)
 
@@ -39,7 +48,7 @@ BiomedCLIP-based skin appearance detector
 
 Model: Microsoft BiomedCLIP (Fine-tuned on 15M+ medical images)
 
-Paper: https://arxiv.org/abs/2303.00915
+[Research Paper](https://arxiv.org/abs/2303.00915)
 
 .............................................
 
@@ -52,7 +61,7 @@ Groq LLM (Transformer-based LLM)
 - Generates personalized, coherent, and non-diagnostic guidance
 - Enforces safety constraints and medical boundaries
 
-**Evaluation Approach**
+## **Evaluation Approach**
 
 AI-MediBot does not use a single “accuracy” metric, as it is not a diagnostic classifier.
 - Vision Model: Evaluated using Top-K similarity matching
@@ -60,7 +69,7 @@ AI-MediBot does not use a single “accuracy” metric, as it is not a diagnosti
 - Safety: Verified for non-diagnostic compliance and escalation guidance
 
 
-**Future Enhancements**
+## **Future Enhancements**
 
 - Cloud-based microservices deployment
 - Integration with telemedicine platforms
