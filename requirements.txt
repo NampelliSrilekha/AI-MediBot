@@ -1,13 +1,15 @@
+# web 
 streamlit
-Pillow
-open-clip-torch
+python-dotenv
+groq
+
+# ML stack (PINNED)
 torch
 torchvision
-transformers
-pandas
-groq
-python-dotenv
-requests
-openai
-numpy==1.26.4
+open-clip-torch==2.24.0
+transformers==4.37.2
+
+# CV stack
 opencv-python==4.8.1.78
+pillow
+numpy==1.26.4
